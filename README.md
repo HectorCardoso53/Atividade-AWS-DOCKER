@@ -17,7 +17,7 @@
 ## Pontos de atenção: 
    > [!IMPORTANTE]
 
-   - [x] Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
+   - [x] `#RRGGBB Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).`
             
    - [x] Sugestão para o tráfego: Internet sair pelo LB (Load Balancer Classic).
             
