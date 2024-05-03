@@ -13,8 +13,8 @@
       
    - [x] Configuração do serviço de Load Balancer AWS para aplicação WordPress.
   
-## Pontos de atenção:
-> !IMPORTANTE
+## Pontos de atenção: > !IMPORTANTE
+
    - [x] Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
             
    - [x] Sugestão para o tráfego: Internet sair pelo LB (Load Balancer Classic).
