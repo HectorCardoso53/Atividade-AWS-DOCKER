@@ -1,4 +1,4 @@
-<h1> # Atividade-AWS-DOCKER </h1>
+<h1 align="center"> Atividade-AWS-DOCKER</h1><br>
 
 ## Requisitos da atividade:
    - [x] Instalação e configuração do DOCKER ou CONTAINERD no host EC2.
