@@ -1,8 +1,8 @@
 <h1 align="center"> Atividade-AWS-DOCKER</h1><br>
 
-
+> IMPORTANTE
 ## Requisitos da atividade:
-> [ !CAUTION]
+
    - [x] Instalação e configuração do DOCKER ou CONTAINERD no host EC2.
       
    - [x] Ponto adicional para o trabalho: Utilize a instalação via script de Start Instance (user_data.sh).
