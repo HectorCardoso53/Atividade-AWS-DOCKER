@@ -1,6 +1,6 @@
 <h1 align="center"> Atividade-AWS-DOCKER</h1><br>
 
-** ksdm
+<!--
 ## Requisitos da atividade:
 
    - [x] Instalação e configuração do DOCKER ou CONTAINERD no host EC2.
@@ -12,6 +12,8 @@
    - [x] Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação WordPress.
       
    - [x] Configuração do serviço de Load Balancer AWS para aplicação WordPress.
+
+   -->
 
   
 ## Pontos de atenção: 
