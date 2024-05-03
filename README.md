@@ -1,11 +1,16 @@
 # Atividade-AWS-DOCKER
 
 ## Requisitos da atividade:
-  -Instalação e configuração do DOCKER ou CONTAINERD no host EC2.
-  -Ponto adicional para o trabalho: Utilize a instalação via script de Start Instance (user_data.sh).
-  -Efetuar implantar uma aplicação WordPress com contêiner de aplicação RDS banco de dados MySQL.
-  -Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação WordPress.
-  -Configuração do serviço de Load Balancer AWS para aplicação WordPress.
+  - Instalação e configuração do DOCKER ou CONTAINERD no host EC2.
+  
+  - Ponto adicional para o trabalho: Utilize a instalação via script de Start Instance (user_data.sh).
+  
+  - Efetuar implantar uma aplicação WordPress com contêiner de aplicação RDS banco de dados MySQL.
+  
+  - Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação WordPress.
+  
+  - Configuração do serviço de Load Balancer AWS para aplicação WordPress.
+  
 ## Pontos de atenção:
   -Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
   -Sugestão para o tráfego: Internet sair pelo LB (Load Balancer Classic).
