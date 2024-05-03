@@ -1,6 +1,6 @@
 <h1 align="center"> Atividade-AWS-DOCKER</h1><br>
 
-> IMPORTANTE
+
 ## Requisitos da atividade:
 
    - [x] Instalação e configuração do DOCKER ou CONTAINERD no host EC2.
@@ -14,6 +14,7 @@
    - [x] Configuração do serviço de Load Balancer AWS para aplicação WordPress.
   
 ## Pontos de atenção:
+> !IMPORTANTE
    - [x] Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
             
    - [x] Sugestão para o tráfego: Internet sair pelo LB (Load Balancer Classic).
