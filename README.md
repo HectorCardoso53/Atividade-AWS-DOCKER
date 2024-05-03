@@ -12,8 +12,9 @@
    - [x] Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação WordPress.
       
    - [x] Configuração do serviço de Load Balancer AWS para aplicação WordPress.
-  
-## Pontos de atenção: > [!IMPORTANTE]
+
+  > [!IMPORTANTE]
+## Pontos de atenção: 
 
    - [x] Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
             
