@@ -2,7 +2,7 @@
 
 
 ## Requisitos da atividade:
-   ![](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/59742285-a826-46c3-b719-1f9a29db23a5 | width=100)
+   ![](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/59742285-a826-46c3-b719-1f9a29db23a5.png | width=100)
 
    - [x] Instalação e configuração do DOCKER ou CONTAINERD no host EC2.
       
