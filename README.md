@@ -1,6 +1,7 @@
 <h1 align ="center">:computer: Atividade-AWS-DOCKER :writing_hand: </h1><br>
 
 
+
 ## :white_check_mark: Requisitos da atividade:
 
    <h1 align="center"> 
@@ -20,7 +21,8 @@
 
   
 ## :white_check_mark: Pontos de atenção: 
-   > :warning: !IMPORTANTE
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
 
    :globe_with_meridians: Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
             
