@@ -18,7 +18,8 @@
    :globe_with_meridians: Configuração do serviço de Load Balancer AWS para aplicação WordPress.
 
    
-<span style="color:red">Este é um texto vermelho</span>
+<font color="red">Este é um texto vermelho</font>
+
 
 
   
