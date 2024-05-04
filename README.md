@@ -40,6 +40,6 @@
 
 
 ## :white_check_mark: Etapas da execução da Atividade: 
-   ###  globe_with_meridians:Etapas 1:
+   ### Etapas 1: globe_with_meridians:
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/e391930b-1026-4895-a55d-f30a6e352c34)
