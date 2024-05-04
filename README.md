@@ -45,7 +45,11 @@
    - [ ] No menu lateral esquerdo, na seção Virtual private cloud selecione Your VPCs .
    - [ ] Dentro de Your VPCs clique no botão Criar VPC .
    - [ ] Altere as seguintes configurações:
-      
+      - [ ] Em Recursos para criar seleçãoi VPC e muito mais .
+      - [ ] Em Geração automática de name tag coloquei o nome "docker-vpc".
+      - [ ] Em Número de Zonas de Disponibilidade selecionei 2 .
+      - [ ] Em gateways NAT selecionei In 1 AZ .
+      - [ ] Em VPC endpoints selecione None .
 
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/e391930b-1026-4895-a55d-f30a6e352c34)
