@@ -48,7 +48,7 @@
    ### :globe_with_meridians: Etapas 1: Criando VPC
 
    > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> Informações úteis que os usuários devem saber, obsservar que estamos utilizando a configuração de forma automatica da VPC.
 
    - [ ] Acesse o console AWS e entre no serviço VPC .
    - [ ] No menu lateral esquerdo, na seção Virtual private cloud selecione Your VPCs .
