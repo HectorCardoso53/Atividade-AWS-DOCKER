@@ -23,18 +23,18 @@
 ## :white_check_mark: Pontos de atenção: 
    > [!IMPORTANTE]
 
-   - [x] Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
+   :globe_with_meridians: Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
             
-   - [x] Sugestão para o tráfego: Internet sair pelo LB (Load Balancer Classic).
+   :globe_with_meridians: Sugestão para o tráfego: Internet sair pelo LB (Load Balancer Classic).
             
-   - [x] Pastas públicas e estáticas do WordPress sugestão de uso do EFS (Elastic File System).
+   :globe_with_meridians: Pastas públicas e estáticas do WordPress sugestão de uso do EFS (Elastic File System).
             
-   - [x] Fica a classificação de cada membro que usa Dockerfile ou Docker Compose.
+   :globe_with_meridians: Fica a classificação de cada membro que usa Dockerfile ou Docker Compose.
             
-   - [x] Necessário demonstrar a aplicação WordPress funcionando (tela de login).
+   :globe_with_meridians: Necessário demonstrar a aplicação WordPress funcionando (tela de login).
             
-   - [x] A aplicação WordPress precisa estar rodando na porta 80 ou 8080.
+   :globe_with_meridians: A aplicação WordPress precisa estar rodando na porta 80 ou 8080.
         
-   - [x] Utilizar repositório git para versionamento.
+   :globe_with_meridians: Utilizar repositório git para versionamento.
         
-   - [x] Criar documentação.
+   :globe_with_meridians: Criar documentação.
