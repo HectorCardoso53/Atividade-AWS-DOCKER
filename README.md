@@ -42,7 +42,14 @@
 
 
 ## :white_check_mark: Etapas da execução da Atividade: 
+
+
+
    ### :globe_with_meridians: Etapas 1: Criando VPC
+
+   > [!NOTE]
+> Useful information that users should know, even when skimming content.
+
    - [ ] Acesse o console AWS e entre no serviço VPC .
    - [ ] No menu lateral esquerdo, na seção Virtual private cloud selecione Your VPCs .
    - [ ] Dentro de Your VPCs clique no botão Criar VPC .
@@ -55,3 +62,10 @@
 
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/e391930b-1026-4895-a55d-f30a6e352c34)
+
+ ### :globe_with_meridians: Etapas 2: Configuração dos Grupos de Segurança
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
