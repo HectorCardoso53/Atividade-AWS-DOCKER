@@ -20,7 +20,7 @@
    
 
   
-## Pontos de atenção: 
+## :white_check_mark: Pontos de atenção: 
    > [!IMPORTANTE]
 
    - [x] Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
