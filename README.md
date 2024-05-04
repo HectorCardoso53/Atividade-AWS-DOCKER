@@ -1,7 +1,7 @@
 <h1 align ="center">:relaxed: Atividade-AWS-DOCKER :relaxed:</h1><br>
 
 
-## :white_check_mark:Requisitos da atividade:
+## :white_check_mark: Requisitos da atividade:
 
    <h1 align="center"> 
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/59742285-a826-46c3-b719-1f9a29db23a5" width="500" height="400" />
