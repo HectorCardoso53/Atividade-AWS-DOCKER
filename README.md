@@ -38,8 +38,7 @@
         
    :globe_with_meridians: Criar documentação.
 
-
-   
+:black_small_square: :black_small_square: :black_small_square: :black_small_square: :black_small_square: :black_small_square: :black_small_square:
 
 ## :white_check_mark: Etapas da execução da Atividade: 
 
