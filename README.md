@@ -1,4 +1,4 @@
-:relaxed:<h1 align ="center"> Atividade-AWS-DOCKER :relaxed:</h1><br>
+<h1 align ="center">:relaxed: Atividade-AWS-DOCKER :relaxed:</h1><br>
 
 
 ## Requisitos da atividade:
