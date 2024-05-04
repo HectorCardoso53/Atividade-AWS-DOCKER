@@ -1,4 +1,4 @@
-<h1 align ="center">:relaxed: Atividade-AWS-DOCKER :writing_hand: </h1><br>
+<h1 align ="center">:computer: Atividade-AWS-DOCKER :writing_hand: </h1><br>
 
 
 ## :white_check_mark: Requisitos da atividade:
