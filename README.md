@@ -38,8 +38,8 @@
         
    :globe_with_meridians: Criar documentação.
 
-:black_small_square: :black_small_square: :black_small_square: :black_small_square: :black_small_square: :black_small_square: :black_small_square:
 
 ## :white_check_mark: Etapas da execução da Atividade: 
+### :white_check_mark: Etapas 1:
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/e391930b-1026-4895-a55d-f30a6e352c34)
