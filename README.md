@@ -41,7 +41,7 @@
 
 ## :white_check_mark: Etapas da execução da Atividade: 
    ### :globe_with_meridians: Etapas 1: Criando VPC
-   - [x] Acesse o console AWS e entrei no serviço VPC .
+   - [x] Acesse o console AWS e entre no serviço VPC .
       
 
 
