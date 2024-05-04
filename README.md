@@ -41,7 +41,10 @@
 
 ## :white_check_mark: Etapas da execução da Atividade: 
    ### :globe_with_meridians: Etapas 1: Criando VPC
-   - [x] Acesse o console AWS e entre no serviço VPC .
+   - [ ] Acesse o console AWS e entre no serviço VPC .
+   - [ ] No menu lateral esquerdo, na seção Virtual private cloud selecione Your VPCs .
+   - [ ] Dentro de Your VPCs clique no botão Criar VPC .
+   - [ ] Altere as seguintes configurações:
       
 
 
