@@ -39,12 +39,10 @@
    :globe_with_meridians: Necessário demonstrar a aplicação WordPress funcionando (tela de login).
             
    :globe_with_meridians: A aplicação WordPress precisa estar rodando na porta 80 ou 8080.
-
-
-
-   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/64968467-e641-4289-a8fa-78d78aadf3de)
-
         
    :globe_with_meridians: Utilizar repositório git para versionamento.
         
    :globe_with_meridians: Criar documentação.
+
+
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/e391930b-1026-4895-a55d-f30a6e352c34)
