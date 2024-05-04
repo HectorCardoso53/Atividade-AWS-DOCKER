@@ -26,7 +26,7 @@
 
   
 ## :white_check_mark: Pontos de atenção: 
-   > :warning: [!IMPORTANTE]
+   > :warning: !IMPORTANTE
 
    :globe_with_meridians: Não utilize IP público para saída dos serviços WordPress (Evite publicar o serviço WordPress via IP público).
             
