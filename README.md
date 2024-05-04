@@ -77,7 +77,14 @@
 
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/cec91ffe-7935-4215-8d5d-bca3e22a424b)
 
-  
+   - [ ]  Grupo 2: Servidor Web EC2
+
+  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7fe9e56f-ff9c-426d-a760-c25e81f13080)
+
+
+   - [ ]  Grupo 3: EC2 Docker
+         
+  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/6b78367d-8b10-41b5-8660-2c2a9fa5da6f)
 
 
    
