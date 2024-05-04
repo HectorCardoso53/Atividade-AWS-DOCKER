@@ -64,8 +64,21 @@
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/e391930b-1026-4895-a55d-f30a6e352c34)
 
  ### :globe_with_meridians: Etapas 2: Configuração dos Grupos de Segurança
+ 
+- [ ] Acesse o console AWS e entrei no serviço EC2 .
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+- [ ] No menu lateral esquerdo, na seção Rede e Segurança , selecione Grupos de Segurança .
+
+- [ ] Dentro de Grupos de segurança , clique no botão Criar grupo de segurança .
+
+- [ ] Crie e configure os seguintes grupos de segurança usando uma VPC criada anteriormente:
+
+   - [ ]  Grupo 1: Balanceador de carga – regras de entrada
+
+  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/cec91ffe-7935-4215-8d5d-bca3e22a424b)
+
+  
+
+
+   
+   
