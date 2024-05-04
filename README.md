@@ -21,7 +21,8 @@
 
 
 
-<span style="color:red">Seu texto aqui</span>
+<font color="red">Este texto é vermelho</font>
+
 
   
 ## :white_check_mark: Pontos de atenção: 
