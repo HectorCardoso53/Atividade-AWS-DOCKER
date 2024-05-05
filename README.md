@@ -155,6 +155,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
 - [x] Passo 2:
+   - [x] Selecione Modo de `Produção`. 
    - [x] Na seção Opções de mecanismo selecione `MySQL`.
 
    <h1 align="center"> 
@@ -167,7 +168,13 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/71938304-3e7e-4d68-a8c1-8f1957ca92f3"/>
    </h1><br>
 
-Na seção Credentials Settings adicionei uma Master password e confirmei.
+- [x] Passo 4:
+   - [x] Na `seção Configurações(RDS)` adicione um `Identificar`, `Usuário`, `senha` para o RDS  e depois prossiga.
+   <h1 align="center"> 
+   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ed7e5cb3-d583-4f0d-a3c3-cdb7c7ff0d0f"/>
+   </h1><br>
+
+
 Na seção Conectivity, no campo Virtual private cloud selecionei a VPC criada anteriormente.
 No campo Existing VPC security groups selecionei o grupo "RDS" que foi criado anteriormente.
 Na seção Additional configuration, no campo Initial database name coloquei o nome "dockerdb".
