@@ -226,7 +226,24 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/0fcf0eb6-6ad8-499f-9fa6-b9cc35161f9a)
 
 - [x] Passo 4:
-   - [x] Cliquei em Criar load balancer para finalizar. 
+   - [x] Cliquei em Criar load balancer para finalizar.
+     
 
-   
+### :globe_with_meridians: Etapas 6: Gerando Par de Chave:
+- [x] Passo 1:
+   - [x] Acesse o console `AWS` e entrei no serviço `EC2`.
+   - [x] No menu lateral esquerdo, na seção de `Redes e Segurança` selecionei `Pares de chave`.
+   - [x] Dentro de `Par de Chave` clique no botão Criar `Par de Chave`.
+   - [x] No campo Nome digite `"HectorSSH"`.
+   - [x] No campo `Tipo de par de chave` selecione `RSA`.
+   - [x] No campo `Formato de arquivo de chave privada` selecionei `.pem`.
+   - [x] Cliquei no botão `Criar Par de chave`.
+   - [x] Salvei o arquivo `.pem`.
+
+ <h1 align="center"> 
+   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/68a80969-5147-4dd8-821d-e8183e31c074"/>
+   </h1><br>
+
+
+### :globe_with_meridians: Etapas 7: Criando modelo de execução:
    
