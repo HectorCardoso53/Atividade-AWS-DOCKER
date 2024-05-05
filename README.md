@@ -58,7 +58,7 @@
       - [ ] Em Geração automática de name tag coloque o nome `"aws-docker-vpc"`.
       - [ ] Em Número de `Zonas de Disponibilidade selecionei 2` .
       - [ ] Em gateways `NAT selecionei In 1 AZ` .
-      - [ ] Em VPC endpoints selecione `None` .
+      - [ ] Em VPC endpoints selecione `Nenhum` .
       - [ ]  Finalizar `Criar VPC.`
 
 
@@ -90,11 +90,12 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
    - [ ]  Grupo 3: EC2 Docker
+
 > [!IMPORTANT]
 > Esta grupo configuração do grupo de segurança "EC2 Docker" permite acesso SSH (porta 22) apenas a partir do "EC2 Web Server". Isso significa que apenas o servidor web EC2 especificado pode acessar a instância EC2 protegida por esse grupo de segurança através do protocolo SSH.
          
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/6b78367d-8b10-41b5-8660-2c2a9fa5da6f)
 
-
+   - [ ]  Grupo 4: EC2 Docker
    
    
