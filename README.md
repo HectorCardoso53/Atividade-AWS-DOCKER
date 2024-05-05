@@ -80,7 +80,8 @@
 > [!IMPORTANT]
 > Este grupo está configurado para aceitar o tráfego HTTP na porta 80 de qualquer origem. Isso é comumente usado para distribuir o tráfego entre vários servidores web para garantir um melhor desempenho e confiabilidade do serviço.
 
-  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/cec91ffe-7935-4215-8d5d-bca3e22a424b)
+ ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/2dd0b669-65d3-4598-b2ea-6894b73b176c)
+
 
    - [ ]  Grupo 2: Servidor Web EC2
 > [!IMPORTANT]
