@@ -266,13 +266,67 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
      <h1 align="center"> 
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4b443d42-e557-4fb5-838e-ef1c6a472cab"/>
      </h1><br>
+- [x] Passo 2:
+   - [x] No campo Criar `Modelo de Execução` nome digitei `wordpress`.
+   - [x] No campo `Descrição da versão do modelo` digite `wordpress`.
+   - [x] Em Imagens de Aplicativos e Sistemas Operacionais, clique em `Início Rápido`, depois cliquei em `Amazon Linux` e selecionei a AMI do `Amazon Linux 2`.
+   - [x] Na seção `Tipo de Instância` selecionei o tipo `t3.small`.
+   - [x] No campo `Par de Chave` nome selecionei o `Par de chave` criada anteriormente.
+   - [x] Em Configurações de Rede, no campo `Grupos de Segurança`, selecione o grupo `Servidor Web EC2` que foi criado anteriormente.
+   - [x] Em `Tags de Recursos`, clique em Adicionar nova tag e adicionei as tags de Chave `Name: PB UFOPA`, `CostCenter:C092000024`  e `Projeto: PB UFOPA` para os Tipos de Recursos Instâncias e Volumes."
+   - [x] Em `Detalhes Avançados`, no campo `User data adicione o script abaixo:
+         
+         #!/bin/bash
+         #Atualizar os pacotes do sistema
+         sudo yum update -y
+         
+         #Instalar, iniciar e configurar a inicialização automática do docker
+         sudo yum install docker -y 
+         sudo systemctl start docker
+         sudo systemctl enable docker
+         
+         #Adicionar o usuário ec2-user ao grupo docker
+         sudo usermod -aG docker ec2-user
+         
+         #Instalação do docker-compose
+         sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+         sudo chmod +x /usr/local/bin/docker-compose
+         
+         #Instalar, iniciar e configurar a inicialização automática do nfs-utils
+         sudo yum install nfs-utils -y
+         sudo systemctl start nfs-utils
+         sudo systemctl enable nfs-utils
+         
+         #Criar a pasta onde o EFS vai ser montado
+         sudo mkdir /efs
+         
+         #Montagem e configuração da montagem automática do EFS
+         sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport ID-EFS:/ efs
+         sudo echo "ID-EFS:/ /efs nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport,_netdev 0 0" >> /etc/fstab
+         
+         # Criar uma pasta para os arquivos do WordPress
+         sudo mkdir /efs/wordpress
+         
+         # Criar um arquivo docker-compose.yaml para configurar o WordPress
+         sudo cat <<EOL > /efs/docker-compose.yaml
+         version: '3.8'
+         services:
+           wordpress:
+             image: wordpress:latest
+             container_name: wordpress
+             ports:
+               - "80:80"
+             environment:
+               WORDPRESS_DB_HOST: RDS-Endpoint
+               WORDPRESS_DB_USER: RDS-Master username
+               WORDPRESS_DB_PASSWORD: RDS-Master password
+               WORDPRESS_DB_NAME: RDS-Initial database name
+               WORDPRESS_TABLE_CONFIG: wp_
+             volumes:
+               - /efs/wordpress:/var/www/html
+         EOL
+         
+         # Inicializar o WordPress com docker-compose
+         docker-compose -f /efs/docker-compose.yaml up -d
 
-No campo Launch template name digitei "ws-lt".
-No campo Template version description digitei "docker-wordpress".
-Em Application and OS Images cliquei em Quick Start, depois cliquei em Amazon Linux e selecionei a Amazon Linux 2023 AMI.
-Na seção Instance type selecionei o tipo t3.small.
-No campo Key pair name selecionei a key pair criada anteriormente.
-Em Network settings, no campo Security groups selecionei o grupo "EC2 Web Server" que foi criado anteriormente.
-Em Resource tags cliquei em Add new tag e adicionei as tags de Key "Name", "CostCenter" e "Project" para os Resource types Instances e Volumes.
 
-   
