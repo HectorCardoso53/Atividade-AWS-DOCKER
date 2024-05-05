@@ -254,4 +254,21 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
 ### :globe_with_meridians: Etapas 7: Criando modelo de execução:
+- [x] Passo 1:
+   - [x] Acesse o console AWS e entrei no serviço EC2.
+   - [x] No menu lateral esquerdo, na seção `Instâncias` selecione `Modelo de execução`.
+   - [x]Dentro de `Modelo de Execução` clique no botão Criar `Modelo de Execução`.
+     
+     <h1 align="center"> 
+   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4b443d42-e557-4fb5-838e-ef1c6a472cab"/>
+   </h1><br>
+
+No campo Launch template name digitei "ws-lt".
+No campo Template version description digitei "docker-wordpress".
+Em Application and OS Images cliquei em Quick Start, depois cliquei em Amazon Linux e selecionei a Amazon Linux 2023 AMI.
+Na seção Instance type selecionei o tipo t3.small.
+No campo Key pair name selecionei a key pair criada anteriormente.
+Em Network settings, no campo Security groups selecionei o grupo "EC2 Web Server" que foi criado anteriormente.
+Em Resource tags cliquei em Add new tag e adicionei as tags de Key "Name", "CostCenter" e "Project" para os Resource types Instances e Volumes.
+
    
