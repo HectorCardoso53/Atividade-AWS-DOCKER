@@ -147,6 +147,11 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
  ### :globe_with_meridians: Etapas 4: Criando o Relational Database Service(RDS):
+ 
+- [x] Acessei o console AWS e entrei no serviço de `RDS`.
+- [x] Na página de RDS clique em `Criar Banco de Dados`.
+
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/29e4e88a-0a98-4910-b306-d1c37086448e)
 
 
 
