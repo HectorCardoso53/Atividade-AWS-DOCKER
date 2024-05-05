@@ -171,12 +171,11 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 - [x] Passo 4:
       
 > [!NOTE]
-> Crie tanto o identificar, Usuário e senha para que fique mais fácil a configuração do seu WordPress posteriomente.
+> Crie tanto o identificar, Usuário e senha iguais para que fique mais fácil a configuração do seu WordPress posteriomente.
    - [x] Na `seção Configurações(RDS)` adicione um `Identificar`, `Usuário`, `senha` para o RDS  e depois prossiga.
    <h1 align="center"> 
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ed7e5cb3-d583-4f0d-a3c3-cdb7c7ff0d0f"/>
    </h1><br>
-
 
 Na seção Conectivity, no campo Virtual private cloud selecionei a VPC criada anteriormente.
 No campo Existing VPC security groups selecionei o grupo "RDS" que foi criado anteriormente.
