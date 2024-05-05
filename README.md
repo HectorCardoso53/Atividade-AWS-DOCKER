@@ -146,6 +146,10 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
       - [x] Revise e clique em Criar para finalizar.
 
 
+ ### :globe_with_meridians: Etapas 4: Criando o Relational Database Service(RDS):
+
+
+
 
 
    
