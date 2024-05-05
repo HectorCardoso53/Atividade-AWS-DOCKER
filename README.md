@@ -204,6 +204,24 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    - [x] Revise e clique em `Criar Banco de Dados` para finalizar.
 
  ### :globe_with_meridians: Etapas 5: Criando o Classic Load Balancer:
+ - [x] Passo 1:
+     - [x] Acesse o console `AWS` e entre no serviço `EC2`.
+     - [x] No menu lateral esquerdo, na seção de Load Balancing selecionei `Load Balancers`.
+     - [x] Dentro de Load Balancers cliquei no botão `Criar load balancer`.
+   
+   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/156e82b4-3a68-4e5f-8cc5-d8193fa8144e)
+
+- [x] Passo 2:
+     - [x] Em `Tipos de load balancer` cliquei em `Classic Load Balancer` e depois em `Criar`.
+
+   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dd6c1740-b589-4155-84cb-4fb493872601)
+
+     - [x] No campo Load balancer name digitei "ws-clb".
+     - [x] Na seção Network mapping, no campo VPC selecionei a VPC criada anteriormente.
+     - [x] No campo Mappings selecionei as duas AZ's e suas respectivas subnets públicas.
+     - [x] No campo de Security groups selecionei o grupo "Load Balancer" que foi criado anteriormente.
+     - [x] Na seção Health checks, no campo Ping path adicionei o caminho "/wp-admin/install.php".
+- [x] Cliquei em Create load balancer para finalizar. 
 
    
    
