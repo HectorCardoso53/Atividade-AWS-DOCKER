@@ -100,9 +100,16 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
    - [ ]  Grupo 4: RDS
 > [!IMPORTANT]
-> Este grupo permite que apenas as instâncias EC2 específicas, pertencentes ao grupo de segurança "Servidor Web EC2", se comuniquem com o banco de dados RDS MySQL ou Aurora através da porta 3306. I
+> Este grupo permite que apenas as instâncias EC2 específicas, pertencentes ao grupo de segurança "Servidor Web EC2", se comuniquem com o banco de dados RDS MySQL ou Aurora através da porta 3306. 
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/5e2e1866-11e7-437f-b280-e994d4d8ffeb)
+
+   - [ ]  Grupo 5: EFS
+> [!IMPORTANT]
+> Essa configuração permite que apenas as instâncias EC2 específicas, pertencentes ao grupo de segurança "EC2 Web Server", acessem o sistema de arquivos distribuído (EFS) através do protocolo NFS na porta 2049.
+
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/303cdc7a-d51c-449a-8322-63a4ab248f10)
+
 
    
    
