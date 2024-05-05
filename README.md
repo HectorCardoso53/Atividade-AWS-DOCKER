@@ -75,7 +75,7 @@
 
 - [x] Crie e configure os seguintes grupos de segurança usando a VPC criada anteriormente:
 
-   - [x]  Grupo 1: Balanceador de carga – regras de entrada
+   - [x]  Grupo 1: Balanceador de carga 
 
 > [!IMPORTANT]
 > Este grupo está configurado para aceitar o tráfego HTTP na porta 80 de qualquer origem. Isso é usado para distribuir o tráfego entre vários servidores web e garantir um melhor desempenho e confiabilidade do serviço.
