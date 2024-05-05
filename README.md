@@ -67,13 +67,13 @@
 
  ### :globe_with_meridians: Etapas 2: Configuração dos Grupos de Segurança
  
-- [ ] Acesse o console AWS e entrei no serviço EC2 .
+- [ ] Acesse o console AWS e entrei no serviço `EC2` .
 
-- [ ] No menu lateral esquerdo, na seção Rede e Segurança , selecione Grupos de Segurança .
+- [ ] No menu lateral esquerdo, na seção `Rede e Segurança` , selecione `Grupos de Segurança` .
 
-- [ ] Dentro de Grupos de segurança , clique no botão Criar grupo de segurança .
+- [ ] Dentro de Grupos de segurança , clique no botão `Criar grupo de segurança` .
 
-- [ ] Crie e configure os seguintes grupos de segurança usando uma VPC criada anteriormente:
+- [ ] Crie e configure os seguintes grupos de segurança usando a VPC criada anteriormente:
 
    - [ ]  Grupo 1: Balanceador de carga – regras de entrada
 
