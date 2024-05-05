@@ -186,16 +186,22 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    </h1><br>
 
 - [x] Passo 6:
-   - [x] Em `Armazenamento` determine o tamanho do armazenamento do `DB`.
+   - [x] Selecione a `VPC` criada anteriomente.
+   - [x] Habilite o acesso público.
+   - [x] Selecione o grupo de segurança `RDS`.
 
    <h1 align="center"> 
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ac6239e8-c5f1-4bd4-87ae-68b830c8395e"/>
    </h1><br>
 
-Na seção Conectivity, no campo Virtual private cloud selecionei a VPC criada anteriormente.
-No campo Existing VPC security groups selecionei o grupo "RDS" que foi criado anteriormente.
-Na seção Additional configuration, no campo Initial database name coloquei o nome "dockerdb".
-Revisei e cliquei em Create database para finalizar.
+- [x] Passo 7:
+   - [x] Na seção `Configuração Adicional`, no campo `Nome do banco de dados inicial` coloque o nome `wordpress`.
+     
+   <h1 align="center"> 
+   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/97a728d4-d8df-4653-9a21-f3475ba4a627"/>
+   </h1><br>
+- [x] Passo 8:
+   - [x] Revise e clique em `Criar Banco de Dados` para finalizar.
 
 
    
