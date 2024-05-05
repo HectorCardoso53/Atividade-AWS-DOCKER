@@ -155,14 +155,18 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
 - [x] Passo 2:
-   - [x] Na seção Opções de mecanismo selecione MySQL.
+   - [x] Na seção Opções de mecanismo selecione `MySQL`.
 
    <h1 align="center"> 
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/c002b261-609a-4628-abc8-c0e9ef1c149b" width="500" height="400" />
    </h1><br>
   
+- [x] Passo 3:
+   - [x] Na seção modelos selecione `Nível Gratuito`.
+      <h1 align="center"> 
+   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/71938304-3e7e-4d68-a8c1-8f1957ca92f3"/>
+   </h1><br>
 
-Na seção Templates selecionei Free tier.
 Na seção Credentials Settings adicionei uma Master password e confirmei.
 Na seção Conectivity, no campo Virtual private cloud selecionei a VPC criada anteriormente.
 No campo Existing VPC security groups selecionei o grupo "RDS" que foi criado anteriormente.
