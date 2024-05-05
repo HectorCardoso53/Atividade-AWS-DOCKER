@@ -126,6 +126,11 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/8d4e2d5e-05d6-430a-a1bd-43d590c69761" />
 </h1><br>
 
+- [x] No campo Virtual Private Cloud (VPC) selecione a `VPC` que foi criada anteriormente.
+- [x] No campo Subnet ID selecione as `subnets privadas` de cada AZ.
+- [x] No campo `grupo de segurança` selecionei o grupo `EFS` que foi criado anteriormente.
+- [x] Cliquei em `Próximo`.
+
 <h1 align="center">      
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/76b1de6e-d5a6-4346-bf9a-b38b2cf637f2" />
 </h1><br>
