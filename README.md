@@ -143,7 +143,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
       - [x] Cliquei em Próximo.
 - [x] Passo 5
    - [x] Revisar e criar:
-      - [x]Revise e clique em Criar para finalizar.
+      - [x] Revise e clique em Criar para finalizar.
 
 
 
