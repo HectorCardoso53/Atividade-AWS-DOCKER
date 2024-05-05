@@ -203,6 +203,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 - [x] Passo 8:
    - [x] Revise e clique em `Criar Banco de Dados` para finalizar.
 
+ ### :globe_with_meridians: Etapas 4: Criando o Classic Load Balancer:
 
    
    
