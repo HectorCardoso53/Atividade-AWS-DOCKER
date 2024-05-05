@@ -94,7 +94,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    - [x]  Grupo 3: EC2 Docker
 
 > [!IMPORTANT]
-> Este grupo configuração do grupo de segurança "EC2 Docker" permite acesso SSH (porta 22) apenas a partir do "Servidor Web EC2". Isso significa que apenas o servidor web EC2 especificado pode acessar a instância EC2 protegida por esse grupo de segurança através do protocolo SSH.
+> A configuração do grupo de segurança "EC2 Docker" permite acesso SSH (porta 22) apenas a partir do "Servidor Web EC2". Isso significa que apenas o servidor web EC2 especificado pode acessar a instância EC2 protegida por esse grupo de segurança através do protocolo SSH.
          
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/6b78367d-8b10-41b5-8660-2c2a9fa5da6f)
 
