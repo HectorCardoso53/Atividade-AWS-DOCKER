@@ -257,11 +257,11 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 - [x] Passo 1:
    - [x] Acesse o console AWS e entrei no serviço EC2.
    - [x] No menu lateral esquerdo, na seção `Instâncias` selecione `Modelo de execução`.
-   - [x]Dentro de `Modelo de Execução` clique no botão Criar `Modelo de Execução`.
+   - [x] Dentro de `Modelo de Execução` clique no botão Criar `Modelo de Execução`.
      
      <h1 align="center"> 
-   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4b443d42-e557-4fb5-838e-ef1c6a472cab"/>
-   </h1><br>
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4b443d42-e557-4fb5-838e-ef1c6a472cab"/>
+     </h1><br>
 
 No campo Launch template name digitei "ws-lt".
 No campo Template version description digitei "docker-wordpress".
