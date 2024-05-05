@@ -177,6 +177,17 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ed7e5cb3-d583-4f0d-a3c3-cdb7c7ff0d0f"/>
    </h1><br>
 
+
+- [x] Passo 5:
+   - [x] Em `Armazenamento` determine o tamanho do armazenamento do `DB`.
+
+   <h1 align="center"> 
+   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/0f30b98e-3b76-4768-9748-26913dfc2b49"/>
+   </h1><br>
+
+- [x] Passo 6:
+   - [x] Em `Armazenamento` determine o tamanho do armazenamento do `DB`.
+
 Na seção Conectivity, no campo Virtual private cloud selecionei a VPC criada anteriormente.
 No campo Existing VPC security groups selecionei o grupo "RDS" que foi criado anteriormente.
 Na seção Additional configuration, no campo Initial database name coloquei o nome "dockerdb".
