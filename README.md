@@ -64,6 +64,10 @@
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7503bbd2-43f7-4d74-9f2f-251f4032d19d)
 
+<h1 align ="center"> Topologia do Grupo de Segurança </h1><br>
+
+![Apresentação mídia kit blogueira delicado rosa](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4464b253-5222-4a1f-b17b-f06aeb9c653d)
+
 
  ### :globe_with_meridians: Etapas 2: Configuração dos Grupos de Segurança
  
