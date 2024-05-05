@@ -155,7 +155,13 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
 - [x] Passo 2:
-Na seção Engine options selecionei MySQL.
+   - [x] Na seção Engine options selecione MySQL.
+
+   <h1 align="center"> 
+   <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/c002b261-609a-4628-abc8-c0e9ef1c149b" width="500" height="400" />
+   </h1><br>
+  
+
 Na seção Templates selecionei Free tier.
 Na seção Credentials Settings adicionei uma Master password e confirmei.
 Na seção Conectivity, no campo Virtual private cloud selecionei a VPC criada anteriormente.
