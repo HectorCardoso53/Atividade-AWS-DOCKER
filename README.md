@@ -76,14 +76,22 @@
 
    - [ ]  Grupo 1: Balanceador de carga – regras de entrada
 
+> [!IMPORTANT]
+> Este grupo está configurado para aceitar o tráfego HTTP na porta 80 de qualquer origem. Isso é comumente usado para distribuir o tráfego entre vários servidores web para garantir um melhor desempenho e confiabilidade do serviço.
+
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/cec91ffe-7935-4215-8d5d-bca3e22a424b)
 
    - [ ]  Grupo 2: Servidor Web EC2
+> [!IMPORTANT]
+> Esse grupo esta configurado com a porta SSH (TCP/22) a partir do grupo de segurança "EC2 Docker": Permite acesso SSH apenas das instâncias associadas ao grupo de segurança "EC2 Docker".
+Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTTP apenas do balanceador de carga especificado.
 
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7fe9e56f-ff9c-426d-a760-c25e81f13080)
 
 
    - [ ]  Grupo 3: EC2 Docker
+> [!IMPORTANT]
+> Esta grupo configuração do grupo de segurança "EC2 Docker" permite acesso SSH (porta 22) apenas a partir do "EC2 Web Server". Isso significa que apenas o servidor web EC2 especificado pode acessar a instância EC2 protegida por esse grupo de segurança através do protocolo SSH.
          
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/6b78367d-8b10-41b5-8660-2c2a9fa5da6f)
 
