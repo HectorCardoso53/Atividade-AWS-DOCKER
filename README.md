@@ -135,6 +135,10 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/76b1de6e-d5a6-4346-bf9a-b38b2cf637f2" />
 </h1><br>
 
+- [x] Política do sistema de arquivos:
+   - [x] Cliquei em Próximo.
+- [x] Revisar e criar:
+   - [x]Revise e clique em Criar para finalizar.
 
 
 
