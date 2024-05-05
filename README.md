@@ -112,6 +112,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
 ### :globe_with_meridians: Etapas 3: Criando EFS (ELASTIC FILE SYSTEM) 
+- [x] Procure por EFS na Amazon AWS o serviço de arquivos de NFS escalável da AWS.
 
 
    
