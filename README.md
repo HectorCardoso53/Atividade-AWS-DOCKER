@@ -111,5 +111,8 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/303cdc7a-d51c-449a-8322-63a4ab248f10)
 
 
+### :globe_with_meridians: Etapas 1: Criando EFS (ELASTIC FILE SYSTEM) 
+
+
    
    
