@@ -155,7 +155,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
 - [x] Passo 2:
-   - [x] Selecione Modo de `Produção`. 
+   - [x] Selecione Modo de `Criação Padrão`. 
    - [x] Na seção Opções de mecanismo selecione `MySQL`.
 
    <h1 align="center"> 
