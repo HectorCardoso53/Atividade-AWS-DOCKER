@@ -119,6 +119,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/bae165f9-342f-4e3e-987b-cf407e8e4a99" />
 </h1><br>
 
+- [x] No campo Name digitei `"EFS-DOCKER"`.
 - [x] Clique em `Personalizar`.
 
 <h1 align="center">      
