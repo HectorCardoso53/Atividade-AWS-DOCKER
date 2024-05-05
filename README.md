@@ -50,16 +50,16 @@
    > [!NOTE]
 > Informações úteis que os usuários devem saber, obsservar que estamos utilizando a configuração de forma automatica da VPC.
 
-   - [ ] Acesse o console AWS e entre no serviço `VPC` .
-   - [ ] No menu lateral esquerdo, na seção `Virtual private cloud` selecione Your `VPCs` .
-   - [ ] Dentro de `Your VPCs` clique no botão `Criar VPC` .
-   - [ ] Altere as seguintes configurações:
-      - [ ] Em Recursos para criar seleção `VPC e muito mais` .
-      - [ ] Em Geração automática de name tag coloque o nome `"aws-docker-vpc"`.
-      - [ ] Em Número de `Zonas de Disponibilidade selecionei 2` .
-      - [ ] Em gateways `NAT selecionei In 1 AZ` .
-      - [ ] Em VPC endpoints selecione `Nenhum` .
-      - [ ]  Finalizar `Criar VPC.`
+   - [x] Acesse o console AWS e entre no serviço `VPC` .
+   - [x] No menu lateral esquerdo, na seção `Virtual private cloud` selecione Your `VPCs` .
+   - [x] Dentro de `Your VPCs` clique no botão `Criar VPC` .
+   - [x] Altere as seguintes configurações:
+      - [x] Em Recursos para criar seleção `VPC e muito mais` .
+      - [x] Em Geração automática de name tag coloque o nome `"aws-docker-vpc"`.
+      - [x] Em Número de `Zonas de Disponibilidade selecionei 2` .
+      - [x] Em gateways `NAT selecionei In 1 AZ` .
+      - [x] Em VPC endpoints selecione `Nenhum` .
+      - [x]  Finalizar `Criar VPC.`
 
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7503bbd2-43f7-4d74-9f2f-251f4032d19d)
@@ -67,15 +67,15 @@
 
  ### :globe_with_meridians: Etapas 2: Configuração dos Grupos de Segurança
  
-- [ ] Acesse o console AWS e entrei no serviço `EC2` .
+- [x] Acesse o console AWS e entrei no serviço `EC2` .
 
-- [ ] No menu lateral esquerdo, na seção `Rede e Segurança` , selecione `Grupos de Segurança` .
+- [x] No menu lateral esquerdo, na seção `Rede e Segurança` , selecione `Grupos de Segurança` .
 
-- [ ] Dentro de Grupos de segurança , clique no botão `Criar grupo de segurança` .
+- [x] Dentro de Grupos de segurança , clique no botão `Criar grupo de segurança` .
 
-- [ ] Crie e configure os seguintes grupos de segurança usando a VPC criada anteriormente:
+- [x] Crie e configure os seguintes grupos de segurança usando a VPC criada anteriormente:
 
-   - [ ]  Grupo 1: Balanceador de carga – regras de entrada
+   - [x]  Grupo 1: Balanceador de carga – regras de entrada
 
 > [!IMPORTANT]
 > Este grupo está configurado para aceitar o tráfego HTTP na porta 80 de qualquer origem. Isso é comumente usado para distribuir o tráfego entre vários servidores web para garantir um melhor desempenho e confiabilidade do serviço.
@@ -83,7 +83,7 @@
  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/2dd0b669-65d3-4598-b2ea-6894b73b176c)
 
 
-   - [ ]  Grupo 2: Servidor Web EC2
+   - [x]  Grupo 2: Servidor Web EC2
 > [!IMPORTANT]
 > Esse grupo esta configurado com a porta SSH (TCP/22) a partir do grupo de segurança "EC2 Docker": Permite acesso SSH apenas das instâncias associadas ao grupo de segurança "EC2 Docker".
 Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTTP apenas do balanceador de carga especificado.
@@ -91,20 +91,20 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7fe9e56f-ff9c-426d-a760-c25e81f13080)
 
 
-   - [ ]  Grupo 3: EC2 Docker
+   - [x]  Grupo 3: EC2 Docker
 
 > [!IMPORTANT]
 > Este grupo configuração do grupo de segurança "EC2 Docker" permite acesso SSH (porta 22) apenas a partir do "Servidor Web EC2". Isso significa que apenas o servidor web EC2 especificado pode acessar a instância EC2 protegida por esse grupo de segurança através do protocolo SSH.
          
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/6b78367d-8b10-41b5-8660-2c2a9fa5da6f)
 
-   - [ ]  Grupo 4: RDS
+   - [x]  Grupo 4: RDS
 > [!IMPORTANT]
 > Este grupo permite que apenas as instâncias EC2 específicas, pertencentes ao grupo de segurança "Servidor Web EC2", se comuniquem com o banco de dados RDS MySQL ou Aurora através da porta 3306. 
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/5e2e1866-11e7-437f-b280-e994d4d8ffeb)
 
-   - [ ]  Grupo 5: EFS
+   - [x]  Grupo 5: EFS
 > [!IMPORTANT]
 > Essa configuração permite que apenas as instâncias EC2 específicas, pertencentes ao grupo de segurança "EC2 Web Server", acessem o sistema de arquivos distribuído (EFS) através do protocolo NFS na porta 2049.
 
