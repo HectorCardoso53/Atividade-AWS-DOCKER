@@ -216,12 +216,16 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
    ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dd6c1740-b589-4155-84cb-4fb493872601)
 
-     - [x] No campo Load balancer name digitei "ws-clb".
-     - [x] Na seção Network mapping, no campo VPC selecionei a VPC criada anteriormente.
-     - [x] No campo Mappings selecionei as duas AZ's e suas respectivas subnets públicas.
-     - [x] No campo de Security groups selecionei o grupo "Load Balancer" que foi criado anteriormente.
-     - [x] Na seção Health checks, no campo Ping path adicionei o caminho "/wp-admin/install.php".
-- [x] Cliquei em Create load balancer para finalizar. 
+     - [x] No campo Nome do load balancer digitei `LoadBalancer`.
+     - [x] Na seção `Mapeamento de rede` , no campo VPC selecionei a `VPC` criada anteriormente.
+     - [x] No campo `Mapeamento` selecione as duas AZ's e suas respectivas `subnets públicas`.
+     - [x] No campo de `Grupo de segurança` selecione o grupo `Load Balancer` que foi criado anteriormente.
+     - [x] Na seção `Verificações de integridade`, no campo `Caminho de ping` adicione o caminho `"/wp-admin/install.php"`.
+  
+  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/0fcf0eb6-6ad8-499f-9fa6-b9cc35161f9a)
+
+- [x] Passo 3:
+   - [x] Cliquei em Criar load balancer para finalizar. 
 
    
    
