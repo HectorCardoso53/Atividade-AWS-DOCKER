@@ -62,7 +62,8 @@
       - [ ]  Finalizar `Criar VPC.`
 
 
-![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/e391930b-1026-4895-a55d-f30a6e352c34)
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7503bbd2-43f7-4d74-9f2f-251f4032d19d)
+
 
  ### :globe_with_meridians: Etapas 2: Configuração dos Grupos de Segurança
  
