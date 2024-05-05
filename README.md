@@ -147,14 +147,21 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
  ### :globe_with_meridians: Etapas 4: Criando o Relational Database Service(RDS):
- 
-- [x] Acesse o console AWS e entre no serviço de `RDS`.
-- [x] Na página de RDS clique em `Criar Banco de Dados`.
+- [x] Passo 1: 
+   - [x] Acesse o console AWS e entre no serviço de `RDS`.
+   - [x] Na página de RDS clique em `Criar Banco de Dados`.
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/29e4e88a-0a98-4910-b306-d1c37086448e)
 
 
-
+- [x] Passo 2:
+Na seção Engine options selecionei MySQL.
+Na seção Templates selecionei Free tier.
+Na seção Credentials Settings adicionei uma Master password e confirmei.
+Na seção Conectivity, no campo Virtual private cloud selecionei a VPC criada anteriormente.
+No campo Existing VPC security groups selecionei o grupo "RDS" que foi criado anteriormente.
+Na seção Additional configuration, no campo Initial database name coloquei o nome "dockerdb".
+Revisei e cliquei em Create database para finalizar.
 
 
    
