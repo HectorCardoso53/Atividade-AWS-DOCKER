@@ -97,6 +97,6 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
          
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/6b78367d-8b10-41b5-8660-2c2a9fa5da6f)
 
-   - [ ]  Grupo 4: EC2 Docker
+   - [ ]  Grupo 4: RDS
    
    
