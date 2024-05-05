@@ -216,6 +216,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
    ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dd6c1740-b589-4155-84cb-4fb493872601)
 
+- [x] Passo 3:
      - [x] No campo Nome do load balancer digitei `LoadBalancer`.
      - [x] Na seção `Mapeamento de rede` , no campo VPC selecionei a `VPC` criada anteriormente.
      - [x] No campo `Mapeamento` selecione as duas AZ's e suas respectivas `subnets públicas`.
@@ -224,7 +225,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
   
   ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/0fcf0eb6-6ad8-499f-9fa6-b9cc35161f9a)
 
-- [x] Passo 3:
+- [x] Passo 4:
    - [x] Cliquei em Criar load balancer para finalizar. 
 
    
