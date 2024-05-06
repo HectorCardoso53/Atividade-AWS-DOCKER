@@ -280,6 +280,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
       
          #!/bin/bash
          #Atualizar os pacotes do sistema
+         
          sudo yum update -y  ---------------> Esta opção responde "sim" automaticamente para instalação ou atualização do sistesma.
            |   |    |
            |   |     -----------------------> Atualizar os pacotes para suas versões mais recente
@@ -287,9 +288,13 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
             --------------------------------> Executar comando como super usuário(Root)
 
          #Instalar, iniciar e configurar a inicialização automática do docker
-         sudo yum install docker -y 
+         sudo yum install docker -y ---------> Esta sendo feito a estalação do docker de forma automática.
          sudo systemctl start docker
-         sudo systemctl enable docker
+                 |       |
+                 |        -------------------> Iniciar o serviço no caso do docker
+                  ---------------------------> é o sistema de inicialização padrão em distribuições Linux.
+         
+         sudo systemctl enable docker--------> Este comando configura o Docker para iniciar automaticamente sempre que o sistema for inicializado.
          
          #Adicionar o usuário ec2-user ao grupo docker
          sudo usermod -aG docker ec2-user
