@@ -414,6 +414,15 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
   <h1 align="center"> 
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/48690ac4-7766-408c-a18b-eab24636587d"/>
      </h1><br>
+
+- [x] Passo 3:
+   - [x] Na seção `Rede` , no campo `VPC` selecione a `VPC` criada anteriormente.
+   - [x] No campo Zonas de disponibilidade e sub-redes selecione as duas `sub-redes privadas` criadas anteriormente.
+   - [x] Cliquei em `Próximo` .
          
+  <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/d4ad30d3-1b77-401e-97b3-0568ca16a92e"/>
+     </h1><br>
+
 
  
