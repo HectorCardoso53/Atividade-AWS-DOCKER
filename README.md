@@ -453,3 +453,20 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/9af5af88-54b8-486f-af9f-f750ff85197d)
 
 
+### :globe_with_meridians: Etapas 9: Configuração do EC2 Instance Connect Endpoint:
+
+- [x] Passo 1:
+   - [x] Acesse o console AWS e entre no serviço `VPC` .
+   - [x] No menu lateral esquerdo, na seção `Nuvem privada virtual` selecione `Endpoints` .
+   - [x] Dentro de `Endpoints` clique no botão `Criar endpoint` .
+
+<h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dde15139-9e4d-4519-a451-9827eefccb81"/>
+     </h1><br>
+      
+- [x] Passo 2:
+
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/adef5414-657e-4b94-9fa0-8f5b6b998764)
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7c2a38f3-d9af-4638-9fd3-d232628ac5ea)
+
+
