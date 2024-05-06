@@ -297,7 +297,11 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
          sudo systemctl enable docker--------> Este comando configura o Docker para iniciar automaticamente sempre que o sistema for inicializado.
          
          #Adicionar o usuário ec2-user ao grupo docker
-         sudo usermod -aG docker ec2-user
+         sudo usermod -aG docker ec2-user 
+                 |     |           |
+                 |     |            ------>  é o usuário padrão em instâncias do Amazon EC2 baseadas em Amazon Linux
+                 |      ------------------> o "a" adiciona o usuario. e o "G" especifica o grupo ao qual o usuário será adicionado(docker).
+                  ------------------------> Modifica um usuário.
          
          #Instalação do docker-compose
          sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
