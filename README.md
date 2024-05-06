@@ -360,9 +360,9 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
              ports:
                - "80:80"
              environment:
-               WORDPRESS_DB_HOST: RDS-Endpoint
-               WORDPRESS_DB_USER: RDS-Master username
-               WORDPRESS_DB_PASSWORD: RDS-Master password
+               WORDPRESS_DB_HOST: wordpress.cbggey8s8yli.us-east-1.rds.amazonaws.com
+               WORDPRESS_DB_USER: wordpress
+               WORDPRESS_DB_PASSWORD: 
                WORDPRESS_DB_NAME: RDS-Initial database name
                WORDPRESS_TABLE_CONFIG: wp_
              volumes:
