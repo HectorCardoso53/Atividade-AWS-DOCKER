@@ -460,7 +460,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    - [x] No menu lateral esquerdo, na seção `Nuvem privada virtual` selecione `Endpoints` .
    - [x] Dentro de `Endpoints` clique no botão `Criar endpoint` .
 
-<h1 align="center"> 
+   <h1 align="center"> 
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dde15139-9e4d-4519-a451-9827eefccb81"/>
      </h1><br>
       
@@ -485,11 +485,20 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
      </h1><br>
 
 - [x] Passo 2:
-   - [x] Na tela de instalação do WordPress mantive o idioma padrão e cliquei em Continue.
-   - [ ] 
-![WhatsApp Image 2024-05-06 at 15 20 12](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/f28dd214-91b2-424e-a679-75d4101bef4d)
+   - [x] Na tela de instalação do `WordPress` mantenha o `idioma padrão` e clique em `Continue`.
 
-![WhatsApp Image 2024-05-06 at 15 21 15](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/22e035dc-e339-475f-bf17-b3236f3bd63c)
+     <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/f28dd214-91b2-424e-a679-75d4101bef4d"/>
+     </h1><br>    
+
+- [x] Passo 3:
+   - [x] Na tela seguinte preenchi os dados para `criação do usuário`.
+   - [x] Cliquei em `Instalar WordPress` para finalizar.
+         
+        <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/22e035dc-e339-475f-bf17-b3236f3bd63c"/>
+     </h1><br>   
+
 
 ![WhatsApp Image 2024-05-06 at 15 21 41](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/900f6f91-25bf-4e93-8aa1-3ef96946c149)
 
