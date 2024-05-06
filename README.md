@@ -392,3 +392,6 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
                          |               ------------------------------> Especifica o arquivo de configuração do Docker Compose a ser usado para definir os serviços. 
                          ------------------------------------------------>  é usada para especificar o arquivo de configuração do Docker Compose a ser utilizado 
 
+
+
+### :globe_with_meridians: Etapas 8: Criando Auto Scaling:
