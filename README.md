@@ -498,9 +498,15 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
         <h1 align="center"> 
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/22e035dc-e339-475f-bf17-b3236f3bd63c"/>
      </h1><br>   
-
-
-![WhatsApp Image 2024-05-06 at 15 21 41](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/900f6f91-25bf-4e93-8aa1-3ef96946c149)
+     
+- [x] Passo 4:
+   - [x] Logue com seu `usuário` e `senha criado` anteriomente.
+   - [x] Clique em `Logar`
+  
+   <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/900f6f91-25bf-4e93-8aa1-3ef96946c14"/>
+     </h1><br>
+![WhatsApp Image 2024-05-06 at 15 21 41](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/50e4a342-5363-4705-b468-e26f7d6c18cb)
 
 ![WhatsApp Image 2024-05-06 at 15 22 20](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/bdfa042d-9b22-48b2-92a1-25b200900d7f)
 
