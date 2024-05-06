@@ -480,6 +480,25 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 - [x] Passo 1:
    - [x] Acesse o `DNS name` do `Load Balancer` através do navegador.
-  
-  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/316b1e8d-c48e-48f9-9b76-553016ba88c8)
+  <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/316b1e8d-c48e-48f9-9b76-553016ba88c8"/>
+     </h1><br>
+
+- [x] Passo 2:
+   - [x] Na tela de instalação do WordPress mantive o idioma padrão e cliquei em Continue.
+   - [ ] 
+![WhatsApp Image 2024-05-06 at 15 20 12](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/f28dd214-91b2-424e-a679-75d4101bef4d)
+
+![WhatsApp Image 2024-05-06 at 15 21 15](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/22e035dc-e339-475f-bf17-b3236f3bd63c)
+
+![WhatsApp Image 2024-05-06 at 15 21 41](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/900f6f91-25bf-4e93-8aa1-3ef96946c149)
+
+![WhatsApp Image 2024-05-06 at 15 22 20](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/bdfa042d-9b22-48b2-92a1-25b200900d7f)
+
+![WhatsApp Image 2024-05-06 at 15 23 35](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dd538152-77ef-4e40-922a-3ddcaec795d2)
+
+
+
+
+
 
