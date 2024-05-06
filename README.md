@@ -447,6 +447,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
      </h1><br>
      
 
-
+- [x] Passo 6 :
+- [x] Próximos passos só apertar em próximo até finalizar a cria do `Grupo de Auto Scaling` .
 
 
