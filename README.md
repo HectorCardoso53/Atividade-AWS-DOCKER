@@ -334,7 +334,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
                |         |          -------->  Especifica a versão do NFS
                |         |         |             --------->Define o tamanho máximo do bloco de leitura para 1 MB ----------------------------------------> Esta é a localização do EFS que está sendo montado. 
                |         |         |            |                                                                              |
-         sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-087b346d04000f310.efs.us-east-1.amazonaws.com:/ efs
+         sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-087b346d04000f310.efs.us-east-1.amazonaws.com:/ efs ------> o diretório que será montado
                                                                  |
                                                                  |
                                                                   ---------------------------------> Define o tamanho máximo do bloco de gravação para 1 MB
@@ -352,7 +352,12 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
          sudo mkdir /efs/wordpress
          
          # Criar um arquivo docker-compose.yaml para configurar o WordPress
-         sudo cat <<EOL > /efs/docker-compose.yaml
+               ---------------------------------------------------------------->  é um comando usado para exibir o conteúdo de arquivos.
+               |
+               |
+         sudo cat <<EOL > /efs/docker-compose.yaml -------------------------------> redireciona a entrada de texto fornecida pelo "here document" para o arquivo /efs/docker-compose.yaml;
+                    |
+                     ---------------------------> indica o início do "here document"
          version: '3.8'
          services:
            wordpress:
@@ -363,14 +368,20 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
              environment:
                WORDPRESS_DB_HOST: wordpress.cbggey8s8yli.us-east-1.rds.amazonaws.com
                WORDPRESS_DB_USER: wordpress
-               WORDPRESS_DB_PASSWORD: 
-               WORDPRESS_DB_NAME: RDS-Initial database name
+               WORDPRESS_DB_PASSWORD: wordpress
+               WORDPRESS_DB_NAME: wordpress
                WORDPRESS_TABLE_CONFIG: wp_
              volumes:
                - /efs/wordpress:/var/www/html
          EOL
          
          # Inicializar o WordPress com docker-compose
-         docker-compose -f /efs/docker-compose.yaml up -d
-
+               ----------------------------------------------> ferramenta usada para lidar com aplicativos Docker compostos por vários contêineres
+              |                                       --------------------> É o comando usado para iniciar os serviços definidos no arquivo docker-compose.yaml
+              |                                      |
+         docker-compose -f /efs/docker-compose.yaml up -d --> Esta opção indica que os contêineres devem ser iniciados em modo "Segundo plano".
+                         |              |
+                         |              |
+                         |               ------------------------------> Especifica o arquivo de configuração do Docker Compose a ser usado para definir os serviços. 
+                         ------------------------------------------------>  é usada para especificar o arquivo de configuração do Docker Compose a ser utilizado 
 
