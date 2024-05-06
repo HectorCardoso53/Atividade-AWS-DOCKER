@@ -301,12 +301,24 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
          sudo usermod -aG docker ec2-user 
                  |     |           |
                  |     |            ------>  é o usuário padrão em instâncias do Amazon EC2 baseadas em Amazon Linux
-                 |      ------------------> o "a" adiciona o usuario. e o "G" especifica o grupo ao qual o usuário será adicionado(docker).
+                 |      ------------------> o "a" adiciona o usuario. e o "G" especifica o grupo
+                 |                            ao qual o usuário será adicionado(docker).
+                 |
                   ------------------------> Modifica um usuário.
          
          #Instalação do docker-compose
-         sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-         sudo chmod +x /usr/local/bin/docker-compose
+                ------------------------------>É uma ferramenta de linha de comando utilizada para transferir
+               |                                 dados de ou para um servidor, utilizando um dos protocolos
+               |                                 
+               |     -------------------------> ele instrui o curl a seguir automaticamente os redirecionamentos
+               |    |                                            -------------------------------->  Esta é a URL de onde o Docker Compose será baixado.
+               |    |                                           |
+         sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose ----> Esta parte do comando diz onde salvar o arquivo baixado
+                                                                                                       |          |        |
+                                                                                                       |          |         ----> especifica o nome do arquivo de saída onde o conteúdo da URL será salvo.
+                                                                                                       |           ------------> retorna a arquitetura do hardware.
+                                                                                                        -----------------------> retorna o nome do sistema operacional.       
+         sudo chmod +x /usr/local/bin/docker-compose ---------> Aqui estou tornaod executável o docker compose. 
          
          #Instalar, iniciar e configurar a inicialização automática do nfs-utils
          sudo yum install nfs-utils -y
