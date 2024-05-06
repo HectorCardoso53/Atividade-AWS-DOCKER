@@ -321,16 +321,18 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
          sudo chmod +x /usr/local/bin/docker-compose ---------> Aqui estou tornaod executável o docker compose. 
          
          #Instalar, iniciar e configurar a inicialização automática do nfs-utils
-         sudo yum install nfs-utils -y
-         sudo systemctl start nfs-utils
-         sudo systemctl enable nfs-utils
+         sudo yum install nfs-utils -y ------------> instalação do nfs
+         sudo systemctl start nfs-utils -----------> Iniciar o serviço no caso do nfs- ultis
+         sudo systemctl enable nfs-utils ----------> Este comando configura o nfs-utils para iniciar automaticamente sempre que o sistema for inicializado.
          
          #Criar a pasta onde o EFS vai ser montado
          sudo mkdir /efs
          
          #Montagem e configuração da montagem automática do EFS
-         sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport ID-EFS:/ efs
-         sudo echo "ID-EFS:/ /efs nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport,_netdev 0 0" >> /etc/fstab
+         
+         sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-087b346d04000f310.efs.us-east-1.amazonaws.com:/ efs
+         
+         sudo echo "fs-087b346d04000f310.efs.us-east-1.amazonaws.com:/ /efs nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport,_netdev 0 0" >> /etc/fstab
          
          # Criar uma pasta para os arquivos do WordPress
          sudo mkdir /efs/wordpress
