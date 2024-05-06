@@ -274,7 +274,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    - [x] No campo `Par de Chave` nome selecionei o `Par de chave` criada anteriormente.
    - [x] Em Configurações de Rede, no campo `Grupos de Segurança`, selecione o grupo `Servidor Web EC2` que foi criado anteriormente.
    - [x] Em `Tags de Recursos`, clique em Adicionar nova tag e adicionei as tags de Chave `Name: PB UFOPA`, `CostCenter:C092000024`  e `Projeto: PB UFOPA` para os Tipos de Recursos Instâncias e Volumes."
-   - [x] Em `Detalhes Avançados`, no campo user_date.sh adicione o script abaixo:
+   - [x] Em `Detalhes Avançados`, no campo `user_date.sh` adicione o script abaixo:
          
          #!/bin/bash
          #Atualizar os pacotes do sistema
