@@ -267,6 +267,10 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4b443d42-e557-4fb5-838e-ef1c6a472cab"/>
      </h1><br>
 - [x] Passo 2:
+       <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ac56b962-8493-44fc-84a7-1035346245d7"/>
+     </h1><br>
+
    - [x] No campo Criar `Modelo de Execução` nome digitei `wordpress`.
    - [x] No campo `Descrição da versão do modelo` digite `wordpress`.
    - [x] Em Imagens de Aplicativos e Sistemas Operacionais, clique em `Início Rápido`, depois cliquei em `Amazon Linux` e selecionei a AMI do `Amazon Linux 2`.
