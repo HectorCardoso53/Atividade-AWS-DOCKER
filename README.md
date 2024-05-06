@@ -275,11 +275,17 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    - [x] Em Configurações de Rede, no campo `Grupos de Segurança`, selecione o grupo `Servidor Web EC2` que foi criado anteriormente.
    - [x] Em `Tags de Recursos`, clique em Adicionar nova tag e adicionei as tags de Chave `Name: PB UFOPA`, `CostCenter:C092000024`  e `Projeto: PB UFOPA` para os Tipos de Recursos Instâncias e Volumes."
    - [x] Em `Detalhes Avançados`, no campo `user_date.sh` adicione o script abaixo:
-         
+     
+
+      
          #!/bin/bash
          #Atualizar os pacotes do sistema
-         sudo yum update -y
-         
+         sudo yum update -y  ---------------> Esta opção responde "sim" automaticamente para instalação ou atualização do sistesma.
+           |   |    |
+           |   |     -----------------------> Atualizar os pacotes para suas versões mais recente
+           |    ----------------------------> Ele permite instalar, atualizar e remover pacotes do sistema.
+            --------------------------------> Executar comando como super usuário(Root)
+
          #Instalar, iniciar e configurar a inicialização automática do docker
          sudo yum install docker -y 
          sudo systemctl start docker
