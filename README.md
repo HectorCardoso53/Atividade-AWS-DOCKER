@@ -465,6 +465,12 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
      </h1><br>
       
 - [x] Passo 2:
+   - [X] Em Name tag coloquei o nome "ws-ep".
+   - [x] Em Service category selecionei EC2 Instance Connect Endpoint.
+   - [x] Em VPC selecionei a VPC criada anteriormente.
+   - [x] Em Security groups selecionei o grupo "EC2 ICE" que foi criado anteriormente.
+   - [x] Em Subnet selecionei uma subnet privada que foi criada anteriormente.
+   - [x] Cliquei em Create endpoint.
 
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/adef5414-657e-4b94-9fa0-8f5b6b998764)
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7c2a38f3-d9af-4638-9fd3-d232628ac5ea)
