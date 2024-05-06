@@ -288,6 +288,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
             --------------------------------> Executar comando como super usuário(Root)
 
          #Instalar, iniciar e configurar a inicialização automática do docker
+         
          sudo yum install docker -y ---------> Esta sendo feito a estalação do docker de forma automática.
          sudo systemctl start docker
                  |       |
