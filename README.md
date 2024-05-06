@@ -308,7 +308,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
          
          #Instalação do docker-compose
                 ------------------------------>É uma ferramenta de linha de comando utilizada para transferir
-               |                                 dados de ou para um servidor, utilizando um dos protocolos
+               |                                 dados de para um servidor, utilizando um dos protocolos(https)
                |                                 
                |     -------------------------> ele instrui o curl a seguir automaticamente os redirecionamentos
                |    |                                            -------------------------------->  Esta é a URL de onde o Docker Compose será baixado.
@@ -329,11 +329,24 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
          sudo mkdir /efs
          
          #Montagem e configuração da montagem automática do EFS
-         
+               --------------> Este é o comando usado para montar sistemas de arquivos em diretórios existentes.
+               |         -----> Especifica o tipo de sistema de arquivos a ser montado.
+               |         |          -------->  Especifica a versão do NFS
+               |         |         |             --------->Define o tamanho máximo do bloco de leitura para 1 MB               ----------------------------------------> Esta é a localização do EFS que está sendo montado. 
+               |         |         |            |                                                                              |
          sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-087b346d04000f310.efs.us-east-1.amazonaws.com:/ efs
-         
-         sudo echo "fs-087b346d04000f310.efs.us-east-1.amazonaws.com:/ /efs nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport,_netdev 0 0" >> /etc/fstab
-         
+                                                                 |
+                                                                 |
+                                                                  ---------------------------------> Define o tamanho máximo do bloco de gravação para 1 MB            ----->  indica  que o sistema de arquivos não será incluído em backups                                                                                                                                                                       |            e não será verificado pelo fsck durante a inicialização.                                                                                                                                                                         |
+                                                                                                                                                                      |  
+         sudo echo "fs-087b346d04000f310.efs.us-east-1.amazonaws.com:/ /efs nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport,_netdev 0 0" >> /etc/fstab --> Este é o redirecionamento de saída do comando echo
+               |                    |                                           |                                                                                  |   
+               |                    |                                            ----------------------------------------------------------------------------------                                                                                          |                    |                                                                                | 
+               |                    |                                                                                |
+               |                    |                                                                                 -----------------------------------> Configurações para a montagem do NFS, como versão do NFS, tamanho do bloco de                     |                    |                                                                                                                        leitura/gravação
+               |                    ------------------------------------->Este é o ponto de montagem local onde o EFS será montado.
+               ----------------------------------------------------------> Este comando é usado para imprimir texto na saída padrão.
+                  
          # Criar uma pasta para os arquivos do WordPress
          sudo mkdir /efs/wordpress
          
