@@ -266,6 +266,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
      <h1 align="center"> 
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4b443d42-e557-4fb5-838e-ef1c6a472cab"/>
      </h1><br>
+     
 - [x] Passo 2:
 
 
@@ -395,3 +396,12 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 
 ### :globe_with_meridians: Etapas 8: Criando Auto Scaling:
+
+- [x] Passo 1:
+   - [x] Acessei o console AWS e entre no serviço `EC2`.
+   - [x] No menu lateral esquerdo, na seção de `Auto Scaling` selecionei `Grupo do Auto Scaling`
+   - [x] Dentro de `Grupo do Auto Scaling` clique no botão Criar `Grupo do Auto Scaling`.
+  
+   <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/d0e44977-97bc-468c-a80b-2f2edb515f27"/>
+     </h1><br>
