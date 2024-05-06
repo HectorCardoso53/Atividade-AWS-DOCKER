@@ -476,3 +476,10 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7c2a38f3-d9af-4638-9fd3-d232628ac5ea)
 
 
+### :globe_with_meridians: Etapas 10: Instalando o WordPress:
+
+- [x] Passo 1:
+   - [x] Acesse o `DNS name` do `Load Balancer` através do navegador.
+  
+  ![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/316b1e8d-c48e-48f9-9b76-553016ba88c8)
+
