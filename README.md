@@ -450,4 +450,6 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 - [x] Passo 6 :
 - [x] Próximos passos só apertar em próximo até finalizar a cria do `Grupo de Auto Scaling` .
 
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/9af5af88-54b8-486f-af9f-f750ff85197d)
+
 
