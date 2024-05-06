@@ -434,13 +434,13 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
      </h1><br>
      
 - [x] Passo 5 :
-- [x] No campo Capacidade desejada `digite "2"`.
-- [x] Em Scaling , no campo Capacidade mínima desejada `digite "2"`.
-- [x] No campo Capacidade máxima desejada `digitei "4`".
-- [x] Em Escalabilidade automática selecione a opção Política de escalabilidade de `rastreamento de destino`
-- [x] No campo Tipo de métrica deixei a padrão `Utilização média da CPU`.
-- [x] No campo Valor alvo digitei `75`.
-- [x] Cliquei em `Próximo` .
+   - [x] No campo Capacidade desejada `digite "2"`.
+   - [x] Em Scaling , no campo Capacidade mínima desejada `digite "2"`.
+   - [x] No campo Capacidade máxima desejada `digitei "4`".
+   - [x] Em Escalabilidade automática selecione a opção Política de escalabilidade de `rastreamento de destino`
+   - [x] No campo Tipo de métrica deixei a padrão `Utilização média da CPU`.
+   - [x] No campo Valor alvo digitei `75`.
+   - [x] Cliquei em `Próximo` .
 
 <h1 align="center"> 
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/8ffcb2d3-0ab2-44e1-aeaf-a24a58ae6895"/>
