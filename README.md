@@ -267,9 +267,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4b443d42-e557-4fb5-838e-ef1c6a472cab"/>
      </h1><br>
 - [x] Passo 2:
-       <h1 align="center"> 
-      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ac56b962-8493-44fc-84a7-1035346245d7"/>
-     </h1><br>
+
 
    - [x] No campo Criar `Modelo de Execução` nome digitei `wordpress`.
    - [x] No campo `Descrição da versão do modelo` digite `wordpress`.
@@ -278,6 +276,11 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    - [x] No campo `Par de Chave` nome selecionei o `Par de chave` criada anteriormente.
    - [x] Em Configurações de Rede, no campo `Grupos de Segurança`, selecione o grupo `Servidor Web EC2` que foi criado anteriormente.
    - [x] Em `Tags de Recursos`, clique em Adicionar nova tag e adicionei as tags de Chave `Name: PB UFOPA`, `CostCenter:C092000024`  e `Projeto: PB UFOPA` para os Tipos de Recursos Instâncias e Volumes."
+     
+  <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ac56b962-8493-44fc-84a7-1035346245d7"/>
+     </h1><br>
+     
    - [x] Em `Detalhes Avançados`, no campo `user_date.sh` adicione o script abaixo:
      
 
