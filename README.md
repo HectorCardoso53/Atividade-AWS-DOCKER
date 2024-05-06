@@ -405,3 +405,15 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
    <h1 align="center"> 
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/d0e44977-97bc-468c-a80b-2f2edb515f27"/>
      </h1><br>
+- [x] Passo 2:
+   - [x] Escolha o `modelo de lançamento`
+   - [x] No campo Nome do `grupo do Auto Scaling` digite `Dimensionamento_automático`.
+   - [x] Na seção `modelo de execução` selecione o `modelo` criado anteriormente.
+   - [x] Clique em `Próximo`.
+
+  <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/48690ac4-7766-408c-a18b-eab24636587d"/>
+     </h1><br>
+         
+
+ 
