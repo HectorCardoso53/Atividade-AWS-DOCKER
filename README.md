@@ -518,7 +518,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 ![WhatsApp Image 2024-05-06 at 15 23 35](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dd538152-77ef-4e40-922a-3ddcaec795d2)
 
 
-
+### :globe_with_meridians: Referências:
 
 
 
