@@ -520,5 +520,9 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 ### :globe_with_meridians: Referências:
 
-
+- [x]
+- [x]
+- [x]
+- [x]
+- [x]
 
