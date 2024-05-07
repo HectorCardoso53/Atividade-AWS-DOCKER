@@ -282,7 +282,7 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
       <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/ac56b962-8493-44fc-84a7-1035346245d7"/>
      </h1><br>
      
-   - [x] Em `Detalhes Avançados`, no campo `user_date.sh` adicione o script abaixo:
+   - [x] Em `Detalhes Avançados`, no campo (#user_data.sh) adicione o script abaixo:
      
 
       
