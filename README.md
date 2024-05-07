@@ -518,6 +518,37 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 ![WhatsApp Image 2024-05-06 at 15 23 35](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dd538152-77ef-4e40-922a-3ddcaec795d2)
 
 
+### :globe_with_meridians: Etapas 11: Assegurando a configuração de cada serviços:
+
+- [x] Serviço 1: Verificação da montagem do EFS:
+   - [x] verificação a montagem do EFS utilizando o comando `df -h`.
+   - [x] verificação a configuração de montagem `EFS` através do comando `cat /etc/fstab`.
+
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/4f932f65-c0c3-4404-9fdb-98edebdccaff)
+
+- [x] Serviço 2:Teste do Docker e Docker Compose:
+   - [x] Verificação da execução do contêiner WordPress utilizando o comando `docker ps`.
+   - [x] Verificação o funcionamento do Docker Compose usando o comando `docker-compose -f /efs/docker-compose.yaml ps`.
+
+![image](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/2583f36a-8d4c-4e44-b2d0-8fd3d3f3860a)
+
+- [x] Serviço 3: Acessando o banco de dados da aplicação WordPress:
+   - [x] Copie o `ID`do contêiner WordPress.
+   - [x] Acesse o contêiner usando o comando `docker exec -it <container-id> /bin/bash.`
+   - [x] Dentro do contêiner, atualize a lista de pacotes dos repositórios com `apt-get update`.
+   - [x] Instalei o cliente MySQL com `apt-get install default-mysql-client -y.`
+   - [ ] Verificação que ele foi instalado com sucesso `dpkg -l | grep default-mysql-client`.
+   - [x] Acessei o MySQL utilizando o comando `mysql -h <RDS-endpoint> -P 3306 -u <Master username> -p` e inserir a senha do usuário.
+   - [x] Liste os bancos de dados disponíveis com `show databases`;.
+   - [x] Selecionei o banco de dados dockerdb com `use wordpress`.
+   - [x] Liste todas as tabelas criadas dentro do banco de dados dockerdb com `show tables`;.
+
+   <h1 align="center"> 
+      <img src="https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/7cc8d404-ac8b-4ab8-aadb-296c77481ec2"/>
+     </h1><br>
+
+
+
 ### :globe_with_meridians: Referências:
 
 
