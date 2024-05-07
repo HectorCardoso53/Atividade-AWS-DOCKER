@@ -512,8 +512,8 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
   
 ![WhatsApp Image 2024-05-06 at 15 22 20](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/bdfa042d-9b22-48b2-92a1-25b200900d7f)
 
-[x] Passo 6:
-   - [x] Painel de `configuração do wordpress`.
+- [x] Passo 6:
+   - [x] Vizualiação do `modelo escolhido no painel do wordpress` anteriomente.
 
 ![WhatsApp Image 2024-05-06 at 15 23 35](https://github.com/HectorCardoso53/Atividade-AWS-DOCKER/assets/118605794/dd538152-77ef-4e40-922a-3ddcaec795d2)
 
