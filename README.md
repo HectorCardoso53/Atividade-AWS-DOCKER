@@ -520,9 +520,14 @@ Já a porta HTTP (TCP/80) a partir do balanceador de carga: Permite tráfego HTT
 
 ### :globe_with_meridians: Referências:
 
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
 
+- [x] [Criar uma instância de banco de dados do Amazon RDS](https://docs.aws.amazon.com/pt_br/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html)
+- [x] [Criar um Classic Load Balancer com um listener HTTPS](https://docs.aws.amazon.com/pt_br/elasticloadbalancing/latest/classic/elb-create-https-ssl-load-balancer.html)
+- [x] [Instalação do Docker - Linux](https://docs.aws.amazon.com/pt_br/serverless-application-model/latest/developerguide/install-docker.html#install-docker-instructions)
+- [x] [Install Compose standalone](https://docs.docker.com/compose/install/standalone/)
+- [x] [WordPress - How to use this image](https://hub.docker.com/_/wordpress)
+- [x] [Criar um modelo de execução para um grupo do Auto Scaling](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/create-launch-template.html)
+- [x] [Criar um grupo do Auto Scaling usando um modelo de execução](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/create-asg-launch-template.html)
+- [x] [Usar o EC2 Instance Connect para se conectar à sua instância do Linux com a AWS CLI](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-instance-connect-methods.html#connect-linux-inst-eic-cli-ssh)
+- [x] [Conexão a uma instância de banco de dados executando o mecanismo de banco de dados do MySQL](https://docs.aws.amazon.com/pt_br/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html)
+- [x] [Comandos básicos do MySQL no terminal](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/)
